@@ -1,4 +1,8 @@
-// Calendar functions
+
+//////////////////////////////////////////
+// Google Calendar functions
+//////////////////////////////////////////
+
 function gcalLogin() {
   scope = "https://www.google.com/calendar/feeds/";
   var token = google.accounts.user.login(scope);
@@ -13,6 +17,13 @@ function gcalSetup() {
   gcalLogin();
 }
 
+//////////////////////////////////////////
+// Backbone.js
+//////////////////////////////////////////
+
+var Event = Backbone.Mode.extend({
+  
+});
 
 $(function(){
 
