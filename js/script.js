@@ -21,10 +21,29 @@ function gcalSetup() {
 // Backbone.js
 //////////////////////////////////////////
 
-var Event = Backbone.Mode.extend({
+var Event = Backbone.Model.extend({
+  initialize: function() {
+    this.set({
+      title         : 'New Event',
+      start         : '', 
+      end           : '',
+      desc          : '',
+      location      : '',
+      participants  : '',
+      recurrence    : '',
+      reminders     : ''
+    });
+  }  
+});
+
+var EventList = Backbone.Collection.extend({
+  model: Event,
+  localStorage: new Store('events');
   
 });
 
 $(function(){
-
 });
+
+
+
