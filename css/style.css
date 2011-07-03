@@ -6,31 +6,42 @@ ul, li {
   margin: 0;
 }
 
+#app-bar {
+  background: #fff;
+  padding: 30px 30px 0 0;
+  width: 590px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+}
+
 #app-title h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   background: #fff;
   text-align: center;
-  padding: 20px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  padding: 10px 0 10px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
 }
 
 #content {
-  margin-top: -40px;
+  margin-top: -20px;
   padding-bottom: 20px;
   background: #fff;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
 }
 
 #input-bar {
-  font-size: 2.5em;
+  float: left;
+  font-size: 1.8em;
   background: #fff;
-  width: 520px;
+  width: 420px;
   margin-left: 30px;
   padding: 10px 20px 0 20px;
   outline: none;
@@ -38,8 +49,27 @@ ul, li {
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
   -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 1px
-  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  border-radius: 3px;
+}
+
+#content a {
+  float: left;
+  margin: 5px 0 20px 20px;
+}
+
+#content img {
+  filter: alpha(opacity=20);
+  -moz-opacity: 0.2;
+  opacity: 0.2;
+  -khtml-opacity: 0.2;
+}
+
+#content img:hover {
+  filter: alpha(opacity=100);
+  -moz-opacity: 1.0;
+  opacity: 1.0;
+  -khtml-opacity: 1.0;
 }
 
 #content-list{
