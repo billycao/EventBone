@@ -1,0 +1,74 @@
+body {
+  background: #eee;
+}
+
+ul, li {
+  margin: 0;
+}
+
+#app-title h1 {
+  font-size: 3em;
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+}
+
+#content {
+  margin-top: -40px;
+  padding-bottom: 20px;
+  background: #fff;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+}
+
+#input-bar {
+  font-size: 2.5em;
+  background: #fff;
+  width: 520px;
+  margin-left: 30px;
+  padding: 10px 20px 0 20px;
+  outline: none;
+  border: 1px solid #aaa;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px
+  border-radius: 5px;
+}
+
+#content-list{
+  padding: 0;
+  margin-top: 10px;
+  overflow: visible;
+}
+
+.event-item {
+  list-style: none;
+  margin: 15px 30px 15px 30px;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.event-item {
+  font-size: 120%;
+}
+
+#app-footer {
+  content: ' ';
+  background: #ffffe9;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+  border-top: 1px solid #ffffa6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
