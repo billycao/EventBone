@@ -25,7 +25,7 @@ var Event = Backbone.Model.extend({
   initialize: function() {
     this.set({
       title         : 'New Event',
-      start         : '', 
+      start         : '',
       end           : '',
       desc          : '',
       location      : '',
@@ -33,7 +33,7 @@ var Event = Backbone.Model.extend({
       recurrence    : '',
       reminders     : ''
     });
-  }  
+  }
 });
 
 var EventList = Backbone.Collection.extend({
@@ -48,7 +48,7 @@ var EventList = Backbone.Collection.extend({
 
 var EventView = Backbone.View.extend({
 	tagName: "li",
-	
+
 	//template: _.template('#item-template').html()),
 
 	events: {
@@ -68,6 +68,4 @@ var AppView = Backbone.View.extend({
 
 $(function(){
 });
-
-
 
