@@ -62,7 +62,6 @@ var EventView = Backbone.View.extend({
 });
 
 var AppView = Backbone.View.extend({
-
 });
 
 

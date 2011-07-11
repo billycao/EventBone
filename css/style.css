@@ -20,30 +20,32 @@ ul, li {
   font-size: 2.5em;
   background: #fff;
   text-align: center;
-  padding: 10px 0 10px 0;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  padding: 10px 0 0 0;
 }
 
-#content {
-  margin-top: -20px;
-  padding-bottom: 20px;
-  background: #fff;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+#app-title {
+  position: relative;
+}
+
+#icon-buttons {
+  top: 10px;
+  right: 0;
+  position: absolute;
+  float: right;
+  margin: 10px 20px 0 0;
+}
+
+#icon-buttons a {
+  margin: 0 5px 0 0;
 }
 
 #input-bar {
-  float: left;
   font-size: 1.8em;
   background: #fff;
-  width: 420px;
-  margin-left: 30px;
-  padding: 5px 10px 5px 10px;
+  width: 540px;
+  margin: -10px 0 0 30px;
+  padding: 20px 10px 0 10px;
+  font-weight: 700;
   outline: none;
   border: 1px solid #aaa;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
@@ -53,9 +55,13 @@ ul, li {
   border-radius: 3px;
 }
 
-#content a {
-  float: left;
-  margin: 5px 0 20px 20px;
+#content {
+  padding-bottom: 20px;
+  background: #fff;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
 }
 
 #content img {
