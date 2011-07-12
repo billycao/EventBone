@@ -3,4 +3,6 @@
 
     thin -R app.ru start -p4000
 
+== Rack up config found in app.ru, default configuration is
+   to show index.html
 == Remember to 'bundle install' to install the necessary gems
